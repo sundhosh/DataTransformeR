@@ -1,0 +1,12 @@
+Package: DataTransformeR
+Title: Data Transformation and Outliers identification
+Version: 0.1.0
+Authors@R: person("Santhosh", "Ramesh", email = "sanuborn2win@gmail.com", role = c("aut", "cre"))
+Description: This package identifies best data transformation technique based on RSQ between response variable and transformed data & identifies most critical outliers in the dataset based on RSQ.
+Depends: R (>= 3.4.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    MASS
+RoxygenNote: 6.1.1
